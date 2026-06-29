@@ -50,7 +50,7 @@ sg docker -c "docker ps -a"
 
 echo "--------------------------------------------------------"
 echo "🎉 Installation Complete!"
-echo "🌐 You can now access Dockge at http://$(hostname -I | awk '{print $1}'):5001"
+echo "🌐 You can now access Dockge at http://serverIP:5001"
 echo "⚠️  CRITICAL STEP: Please close this terminal or log out/in"
 echo "   so your user group changes take effect permanently."
 echo "--------------------------------------------------------"
